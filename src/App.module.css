@@ -1,0 +1,17 @@
+.wrapper {
+  background: rgb(32, 23, 14);
+  border-radius: 15px;
+}
+@media screen and (min-width: 1200px) and (max-width: 1200px) {
+  .wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .wrapper {
+    width: 50% !important;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}

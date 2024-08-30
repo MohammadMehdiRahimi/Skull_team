@@ -1,0 +1,23 @@
+.container {
+  padding: 20px 35px;
+  height: calc(100% - 50px);
+  margin-bottom: 300px;
+}
+.container h1 {
+  color: rgba(22, 243, 151, 0.808);
+  font-weight: 800;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #aaaaaa;
+}
+.wrapper {
+  flex: 4;
+  font-weight: 800;
+  letter-spacing: 5px;
+  font-size: 48px;
+}
+.wrapper > * {
+  color: rgb(243, 197, 80);
+  margin-right: 5px;
+}
